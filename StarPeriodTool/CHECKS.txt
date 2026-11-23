@@ -1,0 +1,11 @@
+Folder workflow verification
+
+45 automated checks passed, including the prior numerical tests and new headerless-input, UPLOAD_DATA_HERE selection and preprocessing-export checks.
+Original UPLOAD_DATA_HERE/1: all 81 rows retained during loading; the input snapshot matches its SHA-256.
+Full synthetic V/R workflow: all methods, 3-sigma residual clipping, error propagation, recommendation, automatic harmonic selection and block simulations completed. The known 0.7-day period was recovered by the joint model within 0.003 days.
+Short simulation runs test functionality, not calibrated uncertainty coverage. No physical period is established for the unidentified UPLOAD_DATA_HERE/1 signal.
+Old results are not included in this lightweight distribution; RESULTS starts empty.
+
+2026-11-22 staged workflow: 45 existing checks passed. Separate LS/Fourier/PDM/WWZ recovered synthetic 0.7-day period within 3%; preprocessing-only, stopping at preview, and continuing without clipping passed. Synthetic checks are not population-level accuracy validation.
+
+2026-11-22 range advice: 45 regression checks and 5 range-advice tests passed; separate stage workflow checks passed. Verified grid counts, gaps, repeated times, exposure input, short baselines, time-unit conversion, manual invalid-input retry, selected-range provenance and mismatch rejection. Advice heuristics are not calibrated detection limits.
